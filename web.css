@@ -1,0 +1,43 @@
+.li-1:hover{
+    transform: translateY(-10px);
+    color:cyan;
+}
+.li-1{
+    transition-property:transform ;
+    transition-duration: 0.3s ;
+    transition-timing-function: ease-in-out ;
+    transition-delay:0s ;
+    color:white;
+}
+body{
+    background-color: rgb(37, 36, 36);
+}
+#btn-id-1,#btn-id-2,#btn-id-3,#btn-id-4,#btn-id-5{
+    color:white ;
+}
+#btn-id-1:hover{
+color:cyan;
+}
+#btn-id-2:hover{
+    color:cyan;
+}
+#btn-id-3:hover{
+    color:cyan;
+}
+#btn-id-4:hover{
+    color:cyan;
+}
+#btn-id-5:hover{
+    color:cyan;
+}
+.padding{
+   float: right;
+}
+.my-responsive{
+    width: 100%;
+    display: block;
+}
+.round{
+    border-radius: 50%;
+}
+.my-animate-top{position:relative;animation:animatetop 0.9s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
